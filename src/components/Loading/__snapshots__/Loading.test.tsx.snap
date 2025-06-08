@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Loading Component > should match snapshot 1`] = `
+<div>
+  <div
+    class="_loadingContainer_0d12fb"
+  >
+    <div
+      class="_spinner_0d12fb"
+    />
+    <p>
+      Загрузка...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Loading Component should match snapshot 1`] = `
+<div>
+  <div
+    class="loadingContainer"
+  >
+    <div
+      class="spinner"
+    />
+    <p>
+      Загрузка...
+    </p>
+  </div>
+</div>
+`;

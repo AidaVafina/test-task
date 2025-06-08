@@ -1,0 +1,113 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UserDetails Component > should match snapshot 1`] = `
+<div>
+  <div
+    class="_container_ed71f6"
+  >
+    <h2
+      class="_name_ed71f6"
+    >
+      John Doe
+    </h2>
+    <p
+      class="_item_ed71f6"
+    >
+      <strong>
+        Email: 
+      </strong>
+      <a
+        class="_link_ed71f6"
+        href="mailto:john@example.com"
+      >
+        john@example.com
+      </a>
+    </p>
+    <p
+      class="_item_ed71f6"
+    >
+      <strong>
+        Телефон: 
+      </strong>
+      <a
+        class="_link_ed71f6"
+        href="tel:123-456-7890"
+      >
+        123-456-7890
+      </a>
+    </p>
+    <p
+      class="_item_ed71f6"
+    >
+      <strong>
+        Адрес: 
+      </strong>
+      Apt 4B, 123 Main St, New York, 10001
+    </p>
+    <p
+      class="_item_ed71f6"
+    >
+      <strong>
+        Компания: 
+      </strong>
+      Test Company
+    </p>
+  </div>
+</div>
+`;
+
+exports[`UserDetails Component should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2
+      class="name"
+    >
+      John Doe
+    </h2>
+    <p
+      class="item"
+    >
+      <strong>
+        Email: 
+      </strong>
+      <a
+        class="link"
+        href="mailto:john@example.com"
+      >
+        john@example.com
+      </a>
+    </p>
+    <p
+      class="item"
+    >
+      <strong>
+        Телефон: 
+      </strong>
+      <a
+        class="link"
+        href="tel:123-456-7890"
+      >
+        123-456-7890
+      </a>
+    </p>
+    <p
+      class="item"
+    >
+      <strong>
+        Адрес: 
+      </strong>
+      Apt 4B, 123 Main St, New York, 10001
+    </p>
+    <p
+      class="item"
+    >
+      <strong>
+        Компания: 
+      </strong>
+      Test Company
+    </p>
+  </div>
+</div>
+`;

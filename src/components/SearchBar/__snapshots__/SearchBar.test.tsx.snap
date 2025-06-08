@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchBar Component > should match snapshot 1`] = `
+<div>
+  <div
+    class="_searchContainer_90c5e6"
+  >
+    <input
+      class="_input_90c5e6"
+      placeholder="Поиск по имени пользователя..."
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`SearchBar Component should match snapshot 1`] = `
+<div>
+  <div
+    class="searchContainer"
+  >
+    <input
+      class="input"
+      placeholder="Поиск по имени пользователя..."
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

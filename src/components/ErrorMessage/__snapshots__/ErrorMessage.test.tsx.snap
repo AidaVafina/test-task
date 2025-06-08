@@ -1,0 +1,71 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ErrorMessage Component > should match snapshot with retry button 1`] = `
+<div>
+  <div
+    class="_container_0c75d4"
+  >
+    <p
+      class="_text_0c75d4"
+    >
+      Ошибка: 
+      Test error message
+    </p>
+    <button
+      class="_button_0c75d4"
+    >
+      Повторить
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ErrorMessage Component > should match snapshot without retry button 1`] = `
+<div>
+  <div
+    class="_container_0c75d4"
+  >
+    <p
+      class="_text_0c75d4"
+    >
+      Ошибка: 
+      Test error message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`ErrorMessage Component should match snapshot with retry button 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <p
+      class="text"
+    >
+      Ошибка: 
+      Test error message
+    </p>
+    <button
+      class="button"
+    >
+      Повторить
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ErrorMessage Component should match snapshot without retry button 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <p
+      class="text"
+    >
+      Ошибка: 
+      Test error message
+    </p>
+  </div>
+</div>
+`;

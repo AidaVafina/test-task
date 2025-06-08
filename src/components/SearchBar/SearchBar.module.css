@@ -1,0 +1,21 @@
+.searchContainer {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid var(--color-border, #ccc);
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.input:focus {
+    border-color: var(--color-primary, #3498db);
+}

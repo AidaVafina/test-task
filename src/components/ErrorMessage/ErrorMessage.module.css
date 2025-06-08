@@ -1,0 +1,27 @@
+.container {
+    background-color: var(--color-error-bg, #ffe6e6);
+    color: var(--color-error-text, #cc0000);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.text {
+    margin: 0 0 0.5rem;
+    font-weight: bold;
+}
+
+.button {
+    background-color: var(--color-error-button-bg, #cc0000);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.button:hover {
+    background-color: #a30000;
+}

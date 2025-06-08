@@ -1,0 +1,79 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UserCard Component > should match snapshot 1`] = `
+<div>
+  <div
+    class="_card_c4bfad"
+    style="opacity: 0; transform: translateY(20px);"
+  >
+    <h3
+      class="_name_c4bfad"
+      style="opacity: 0;"
+    >
+      John Doe
+    </h3>
+    <p
+      class="_email_c4bfad"
+      style="opacity: 0;"
+    >
+      john@example.com
+    </p>
+    <p
+      class="_city_c4bfad"
+      style="opacity: 0;"
+    >
+      New York
+    </p>
+    <div
+      tabindex="0"
+    >
+      <a
+        class="_link_c4bfad"
+        data-discover="true"
+        href="/user/1"
+      >
+        Подробнее
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UserCard Component should match snapshot 1`] = `
+<div>
+  <div
+    class="card"
+    style="opacity: 0; transform: translateY(20px);"
+  >
+    <h3
+      class="name"
+      style="opacity: 0;"
+    >
+      John Doe
+    </h3>
+    <p
+      class="email"
+      style="opacity: 0;"
+    >
+      john@example.com
+    </p>
+    <p
+      class="city"
+      style="opacity: 0;"
+    >
+      New York
+    </p>
+    <div
+      tabindex="0"
+    >
+      <a
+        class="link"
+        data-discover="true"
+        href="/user/1"
+      >
+        Подробнее
+      </a>
+    </div>
+  </div>
+</div>
+`;

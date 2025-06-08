@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #3498db;
+  --color-border: #e0e0e0;
+  --color-card-bg: #fff;
+  --color-text-primary: #333;
+  --color-text-secondary: #555;
+  --color-error-bg: #ffe6e6;
+  --color-error-text: #cc0000;
+  --color-error-button-bg: #cc0000;
+  --color-background: #f7f7f7;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: var(--color-text-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}

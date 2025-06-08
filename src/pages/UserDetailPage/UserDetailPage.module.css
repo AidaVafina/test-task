@@ -1,0 +1,60 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.backButton {
+    background: none;
+    border: none;
+    color: var(--color-primary, #3498db);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.backButton:hover {
+    color: var(#2980b9);
+}
+
+.postsTitle {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    color: var(--color-text-primary, #333);
+}
+
+.noPosts {
+    text-align: center;
+    color: var(--color-text-secondary, #666);
+    margin: 2rem 0;
+}
+
+.postsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.postCard {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    will-change: transform;
+}
+
+.postTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-text-primary, #333);
+    margin: 0 0 0.5rem 0;
+}
+
+.postBody {
+    color: var(--color-text-secondary, #666);
+    margin: 0;
+    line-height: 1.5;
+}
